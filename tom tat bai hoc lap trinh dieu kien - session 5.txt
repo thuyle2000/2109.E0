@@ -1,0 +1,6 @@
+Lap trinh dieu kien bao gom :
+	if
+ 	if-else
+	if-else-if
+	nested if
+	switch-case : can co break de dung khoi case.
