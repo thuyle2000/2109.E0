@@ -1,0 +1,11 @@
+tom tat bai hoc 4:
+	- ham xuat du lieu len man hinh: printf() / putchar() / puts()
+	- ham nhap du lieu vo chuong trinh tu ban phim:
+	  scanf() : truoc ten bien phai co ton tu dia chi &
+	  getchar() : nhap 1 ky tu, lenh ket thuc = <enter> 
+	  getche() : nhap 1 ky tu
+	  gets() : nhap 1 chuoi ky tu ket thuc = <enter>
+	  fflush(stdin): de xoa bo dem ban phim, trong truong hop co 2 lenh
+	                 nhap lien tiep, nhung lenh nhap thu 2 ko thuc hien
+	                 duoc.
+	  
