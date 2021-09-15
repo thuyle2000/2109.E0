@@ -13,3 +13,39 @@
 3. B - Nested if
 4. C - switch
 5. B
+
+- phep toan dieu kien 3 ngoi:
+  (bieu thuc dieu kien) ? bt-2 : bt-3
+
+  neu (bieu thuc dieu kien) la dung => ket qua cua phep toan la bt-2
+  neu (bieu thuc dieu kien) la sai => ket qua cua phep toan la bt-3
+
+- Lap trinh vong lap:
+1/ vong lap FOR
+  for(khoi tao bien dem vong lap; dieu kien thuc hien vong lap; cap nhat bien dem)
+  {
+	phan than vong lap;
+  }
+
+
+2/ vong lap WHILE
+  while(dk thi hanh vong lap){
+	phan than vong lap;
+  }
+
+3/ vong lap DO-WHILE
+  do{
+	phan than vong lap;
+  }while(dk thi hanh vong lap);
+	
+ 
+4/ break:
+	- ket thuc 1 case trong switch-case
+	- ket thuc vong lap
+	- bai tap: kiem tra 1 so nguyen co phai la so nguyen to hay ko
+		   so nguyen to chi chia duoc cho 1 va chinh no (ko co uoc so)
+		   day so nguyen to: 2, 3, 5, 7, 11
+	           
+		   xet so 8, uoc so : 1, 2, 4, 8   
+
+5/lam cac bai tap session 9, 10
