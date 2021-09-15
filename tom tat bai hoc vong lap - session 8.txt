@@ -1,0 +1,15 @@
+- CYP session 6
+1. A - printf(), scanf()
+2. B - pointer
+3. B - format specifier
+4. A - %
+5. true
+6. Buffer
+7. false
+
+- CYP session 7
+1. Conditional
+2. True
+3. B - Nested if
+4. C - switch
+5. B
