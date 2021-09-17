@@ -1,0 +1,8 @@
+- CYP 9
+1/ a - loop
+2/ a - while
+3/ b - semicolon
+4/ c - do..while loop
+5/ b - return
+6/ c - goto
+7/ a - exit()
