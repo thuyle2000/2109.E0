@@ -6,3 +6,33 @@
 5/ b - return
 6/ c - goto
 7/ a - exit()
+
+Lap trinh mang (Array)
+- mang la 1 bien bo nho dac biet, co the chua nhieu du lieu 
+ (bien tap hop, bien da tri)
+- moi phan tu trong bien mang duoc nhan dien thong qua chi so
+index (subscript), la 1 so nguyen >=0 - viet trong []
+- cac phan tu cua mang co cung kieu du lieu voi nhau
+
+Luu y:
+- ko the so sanh 2 mang voi nhau
+- ko the gan 2 mang voi nhau
+
+Chuoi (string) 
+- la 1 mang cac ky tu, ket thuc bang ma 0 (ky tu null)
+
+Cac ham xu ly chuoi:
+- strlen(s) : dem so ky tu trong chuoi s
+- strcpy(s1, s2) : gan noi dung s2 cho s1
+- strcat(s1, s2) : noi s2 vao cuoi s1
+- strcmp(s1, s2) : so sanh 2 chuoi s1 va s2
+  s1 = "Nguyen Toan"
+  s2 = "Nguyen Phat"
+  s3 = "Nguyen Toan"
+  => strcmp(s1,s3)  => 0
+  => strcmp(s1,s2)  => 'T' - 'P' <=> 84-80=4  > 0
+  => strcmp(s2,s1)  => 'P' - 'T' <=> 80-84=-4 < 0
+- strchr(s, ch) : tim ky tu ch trong chuoi s, neu tim thay, ket qua !=Null
+- strstr(s, s2) : tim chuoi s2 trong chuoi s, neu tim thay, ket qua !=Null
+
+	
