@@ -1,0 +1,9 @@
+CYP session 11-Array:
+1. b -Array
+2. a -index, subscript
+3. false
+4. false
+5. c - equality
+6. c - null
+7. true
+8. a - strcmp, strcpy
