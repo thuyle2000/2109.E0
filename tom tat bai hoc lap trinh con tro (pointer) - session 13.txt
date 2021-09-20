@@ -1,4 +1,4 @@
-CYP session 11-Array:
+- CYP session 11-Array:
 1. b -Array
 2. a -index, subscript
 3. false
@@ -7,3 +7,60 @@ CYP session 11-Array:
 6. c - null
 7. true
 8. a - strcmp, strcpy
+
+- S9.3
+  Day so fibonacci
+	dinh nghia cu:  1, 1, 2, 3, 5, 8, 13, 21...
+	dinh nghia moi: 0, 1, 1, 2, 3, 5,  8, 13, 21...
+
+	=> 2 so dau tien la theo gia thiet (0,1 /1,1)
+	=> cac so tiep theo = tong 2 so lien ke truoc no
+	   f(n) = f(n-1) + f(n-2)
+	   f = f0 + f1
+	   c = a + b / a=b , b=c
+
+
+f=1, f0=0, f1=1
+index	print(f)	f	  f0	  f1
+		     (f=f0+f1)  (f0=f1)  (f1=f)
+0	1		1=0+1	   1	   1
+1	1		2=1+1	   1	   2
+2	2		3=1+2	   2	   3	
+3	3		5=2+3	   3	   5
+4	5		8=3+5	   5	   8
+
+
+- S11.3
+
+index	0    1    2   3    4
+	13 - 10 - 8 - 90 - 66
+
+- S12.2
+	chi2 / @anh3
+
+
+
+* Pointer
+- la 1 bien dac biet, chua dia chi cua bien khac
+
+- ung dung:
+  - ap dung cho cac ham muon tra ve cho ct goi nhieu gia tri:
+    getchar() / scanf()
+    vi du: char ch = getchar();
+           int i, j; char c; scanf("%d %d %c", &i, &j, &c);
+  - truyen tham so cho cac chuong trinh ham
+  - thao tac mang
+  - cap phat bo nho dong
+  - co 2 phep toan co ban : 
+   	& : lay dia chi cua bien bo nho , 
+	* : lay noi dung cua bien co dia chi chua trong con tro
+  - phep toan tang/giam dia chi bo nho con tro ++/-- co don vi tang giam 
+    bang voi kich thuoc kieu du lieu con tro khai bao
+
+- con tro co the ket hop voi mang
+- con tro co the ket hop voi chuoi (strchr / strstr)
+- con tro co the ung dung trong phuong phap cap phat bo nho dong:
+  - malloc() / calloc() / realloc() /free()
+
+ 
+
