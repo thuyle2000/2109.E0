@@ -4,6 +4,7 @@
 
 void factorial(int n);
 long factorial_2(int n);
+int cnt =0;
 
 int main(){
 	
@@ -11,9 +12,12 @@ int main(){
 	printf(">> nhap so nguyen N: ");
 	scanf("%d", &n);
 	
-	factorial(n);
+	factorial(n);		//tham so thuc te: n
+	factorial(n+2);	//tham so thuc te: n+2
+	factorial(8);		//tham so thuc te: 8
 	
-	long r = factorial_2(n);
+	
+	long r = factorial_2(6);
 	
 	printf("\n *** trong ham main() *** \n");
 	printf(">> %d! = %d \n", n, r);

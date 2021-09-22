@@ -1,4 +1,5 @@
-CYP session 13:
+* CYP session 13:
+
 1. b-pointer
 2. false
 3. a-type
@@ -11,3 +12,48 @@ CYP session 13:
    realloc()
    free()
 
+***********************************
+* Thu vien ham C co ban: 
+  1. printf()			co tham so
+  2. scanf()			co
+  3. getchar()			ko co tham so
+  4. getche()			ko co tham so
+  5. gets()			co
+  6. strlen()			co
+  7. strcpy()
+  8. strcmp()
+  9. strcat()
+ 10. fflush()
+ 11. putchar()
+ 12. strstr()
+ 13. power()
+ 14. puts()
+ 15. sqrt()
+ 16. rand()
+ 17. malloc()
+ 18. calloc()
+ 19. realloc()
+ 20. free()
+
+* cu phap chuong trinh ham :
+
+  type_specifier function_name(arguments){
+	body of the function
+  }
+
+
+-- return : tra ve gia tri cho chuong trinh goi
+
+muon an bun bo:
+	- book grab ve an  		- ham co return value
+	- ra tiem keo ghe ngoi an	- ham ko co gia tri return: void
+
+
+--tham so hinh thuc : ds tham so trong phan dinh nghia ham
+--tham so thuc te: ds bien, bieu thuc, hang gia tri trong loi goi ham
+
+--phan loai bien :cuc bo, tham so hinh thuc va toan cuc
+--phuong phap truyen tham so cho chuong trinh ham:
+	- truyen gia tri (mac dinh)
+	- truyen dia chi -> tham so thuc te co the bi thay doi gia tri sau khi
+	  goi ham
