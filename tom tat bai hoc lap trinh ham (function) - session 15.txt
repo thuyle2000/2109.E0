@@ -1,0 +1,13 @@
+CYP session 13:
+1. b-pointer
+2. false
+3. a-type
+4. c- * and &
+5. a- addition, subtraction
+6. false
+7. a- dynamic memory allocation:
+   malloc()
+   calloc()
+   realloc()
+   free()
+
