@@ -53,7 +53,7 @@ muon an bun bo:
 --tham so thuc te: ds bien, bieu thuc, hang gia tri trong loi goi ham
 
 --phan loai bien :cuc bo, tham so hinh thuc va toan cuc
---phuong phap truyen tham so cho chuong trinh ham:
+--Hinh thuc truyen tham so cho chuong trinh ham:
 	- truyen gia tri (mac dinh)
 	- truyen dia chi -> tham so thuc te co the bi thay doi gia tri sau khi
 	  goi ham
