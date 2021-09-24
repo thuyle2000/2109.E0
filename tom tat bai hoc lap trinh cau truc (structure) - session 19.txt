@@ -1,0 +1,55 @@
+* Structure (Cau truc)
+- bien dac biet, mo ta thong tin chi tiet cua 1 doi tuong.
+  vi du: 
+	doi tuong sinh vien bao gom thuoc tinh: ma so, ten, gioi tinh, nam sinh, email..
+	doi tuong san pham bao gom thuoc tinh: ten sp, don gia, mo ta, xuat su
+	doi tuong nhan vien bao gom cac thuoc tinh: ma so, ten nv, gioi tinh, nam sinh, ngayHD, LuongCB
+	doi tuong thanh pho/tinh co cac thuoc tinh: ma so, ten, dien tich, dan so, nhiet do  
+ 
+	
+
+- dinh nghia kieu du lieu struct:
+	struct [ten-cau-truc] {
+		kieu-du-lieu	bien-thanh-phan-1;
+		kieu-du-lieu	bien-thanh-phan-2;
+		...
+	};
+
+  vi du: dinh nghia kieu du lieu cau truc co ten la BOOK
+	struct BOOK {
+		char tua_sach[31];
+		char tac_gia[21];
+		int lan_xuat_ban;
+		float don_gia;
+	};
+
+
+- khai bao cac bien bo nho co kieu cau truc BOOK de su dung:
+  vi du: khai bao bien bo nho b1, b2 co kieu cau truc BOOK:
+	 struct BOOK b1, b2;
+    hoac
+	 struct BOOK b1;
+	 struct BOOK b2;
+
+- hoac vua khai bao, vua khoi tao noi dung bien cau truc:
+  vi du: struct BOOK b1 = { "Lap trinh C","Aptech", 6, 23.87 };
+
+- de truy cap tung thanh phan (noi dung) cua bien cau truc, 
+  dung phep toan . (dau cham)
+  vi du: 
+	+ de truy cap tua cua quyen sach b1:  b1.tua_sach 
+	+ de truy cap don gia quyen sach b1:  b1.don_gia
+	+ de truy cap tua cua quyen sach b2:  b2.tua_sach 
+
+- ben trong 1 cau truc, co the chua 1 bien cau truc khac.
+- doi voi cac bien mang cau truc, de truy cap tung thanh phan cua bien
+  mang cau truc, ap dung cu phap: 
+	ten_bien_mang[index].ten_bien_thanh_phan
+  vi du: de truy xuat ten tac gia cua quyen sach thu 4 trong bien mang
+	 cau truc bookList:
+	bookList[3].tac_gia
+
+	
+
+
+

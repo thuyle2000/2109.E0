@@ -1,0 +1,16 @@
+* String : chuoi ky tu
+- tan cung bang ma 0 (ky tu NULL)
+- dat trong cap dau nhay doi
+- nhap / xuat 1 chuoi ky tu, goi ham:
+	- ham gets() / puts()
+	- ham scanf("%[^\n]s", ) / printf()
+- cac ham thao tac/xu ly chuoi duoc khai bao 
+  trong tap tin header <string.h>
+	- noi chuoi : strcat()
+	- so sanh chuoi : strcmp()
+	- tim 1 ky tu ben trong 1 chuoi : strchr()
+	- tim 1 chuoi ben trong 1 chuoi : strstr()
+	- sao chep / gan chuoi : strcpy()
+	- tinh do dai chuoi : strlen()
+
+	
