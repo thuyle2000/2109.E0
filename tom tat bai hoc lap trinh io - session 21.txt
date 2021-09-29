@@ -11,3 +11,15 @@ Session 21: File IO
 	   ghi file : fputc(), fputs(), fwrite() , fprintf()
 	   doc file : fgetc(), fgets(), fread() , fscanf()
 	3. close file : fclose()
+
+- fseek(*f, khoang-cach, vi-tri-bat-dau-dichuyen)
+vi du: tap tin co 500 byte, hien nay curp dang o byte thu 100
+	1. dua curp den vi tri 170, co 3 cach thuc hien
+	   a- fseek(*f, 170 ,0)
+	   b- fseek(*f, 70 ,1)
+	   c- fseek(*f, 330 ,2)
+
+	2. dua curp den vi tri 70, co 3 cach thuc hien
+	   a- fseek(*f, 70 ,0)
+	   b- fseek(*f, -30 ,1)
+	   c- fseek(*f, 430 ,2)
