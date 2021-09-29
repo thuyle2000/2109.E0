@@ -1,0 +1,13 @@
+Session 21: File IO
+- Stream:
+	input stream : keyboard / computer / webcam / HDD
+	output stream : monitor / computer / printer / HDD
+
+- Stream : binary stream / text stream  (de cap den ban chat du lieu)
+
+- Lap trinh doc ghi file bao gom cac buoc:
+	1. open file : fopen()
+	2. xu ly doc / ghi:
+	   ghi file : fputc(), fputs(), fwrite() , fprintf()
+	   doc file : fgetc(), fgets(), fread() , fscanf()
+	3. close file : fclose()
